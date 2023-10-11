@@ -10,7 +10,7 @@ export default function Home() {
         <Image
           className="z-0 object-cover object-bottom"
           alt="retro style spaceship flying through space"
-          src="/AstroByteHero.png"
+          src="/AstroByteHero.webp"
           fill
         />
         <div className="flex h-full flex-col justify-between p-5">
