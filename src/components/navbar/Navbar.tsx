@@ -1,4 +1,4 @@
-import { playfair } from '@/lib/fonts'
+import { EBGaramond, playfair } from '@/lib/fonts'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -30,13 +30,16 @@ const Navbar = () => (
       />
     </div>
 
-    <div className={playfair.className}>
+    <div className={EBGaramond.className}>
       <div className="border-text-200 bg-background-950 flex w-full justify-around rounded-full border-2 bg-opacity-80 p-4 drop-shadow-2xl md:w-auto md:justify-start">
         {NavLinks.map(({ text, href }) => (
           <Link
             key={text}
             className="text-text-200 mx-3 text-lg hover:text-astroYellow-500 md:mx-5 md:text-2xl"
             href={href}
+            style={{
+              WebkitTextStroke: '0.4px black',
+            }}
           >
             {text}
           </Link>
