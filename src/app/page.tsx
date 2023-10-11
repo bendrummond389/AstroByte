@@ -20,7 +20,7 @@ export default function Home() {
               <div
                 className="text-text-200 mb-8 text-xl font-semibold md:text-3xl"
                 style={{
-                  WebkitTextStroke: '0.2px black',
+                  WebkitTextStroke: '0.5px black',
                 }}
               >
                 Crafting Digital Cosmos: No page builders, no WordPress, only hand-coded galaxies of
@@ -30,7 +30,7 @@ export default function Home() {
                 <div
                   className="text-text-200 border-text-200 bg-background-950 hover:bg-background-900 mx-auto w-fit rounded-full border-2 p-5 text-xl"
                   style={{
-                    WebkitTextStroke: '0.8px black',
+                    WebkitTextStroke: '0.5px black',
                   }}
                 >
                   Ready For Launch
