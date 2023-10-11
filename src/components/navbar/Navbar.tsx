@@ -25,7 +25,7 @@ const Navbar = () => (
         src="/AstroByteText.png"
         alt="AstroByte Stylized Text"
         height={300}
-        width={300}
+        width={400}
         style={{ objectFit: 'cover', objectPosition: 'top' }}
       />
     </div>

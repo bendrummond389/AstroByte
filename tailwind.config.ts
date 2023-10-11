@@ -80,6 +80,9 @@ const config: Config = {
           950: '#0d1504',
         },
       },
+      borderRadius: {
+        '4xl': '2rem',
+      },
     },
   },
   plugins: [],
