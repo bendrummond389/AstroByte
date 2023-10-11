@@ -18,7 +18,7 @@ export default function Home() {
           <div className="border-text-200 bg-background-950 rounded-4xl z-10 mb-10 h-fit w-full border-2 bg-opacity-70 p-8 drop-shadow-2xl md:w-1/2">
             <div className={bebasNeue.className}>
               <div
-                className="text-text-200 mb-8 text-xl font-bold md:text-3xl"
+                className="text-text-200 mb-8 text-xl font-semibold md:text-3xl"
                 style={{
                   WebkitTextStroke: '0.2px black',
                 }}

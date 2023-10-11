@@ -35,7 +35,7 @@ const Navbar = () => (
         {NavLinks.map(({ text, href }) => (
           <Link
             key={text}
-            className="text-text-200 mx-3 text-lg hover:text-astroYellow-500 md:mx-5 md:text-2xl"
+            className="text-text-200 mx-3 text-lg font-semibold hover:text-text-200 md:mx-5 md:text-2xl"
             href={href}
             style={{
               WebkitTextStroke: '0.4px black',
