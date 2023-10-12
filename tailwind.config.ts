@@ -79,8 +79,9 @@ const config: Config = {
           900: '#1b2b08',
           950: '#0d1504',
         },
-        grad: {
+        custom: {
           100: '#17000D',
+          200: '#EF5B61',
         },
       },
       borderRadius: {

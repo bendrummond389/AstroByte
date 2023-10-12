@@ -21,7 +21,7 @@ const Navbar = () => (
     </div>
 
     <div className={EBGaramond.className}>
-      <div className="border-text-200 bg-background-950 flex w-full justify-around rounded-full border-2 bg-opacity-80 p-4 drop-shadow-2xl md:w-auto md:justify-start">
+      <div className="border-text-200 bg-background-950 flex w-full divide-x divide-text-200 justify-around rounded-full border-2 bg-opacity-80 p-4 drop-shadow-2xl md:w-auto md:justify-start">
         {NAV_LINKS.map(({ text, href }) => (
           <Link key={text} href={href} passHref>
             <span className="text-text-200 mx-3 text-lg font-bold hover:text-white md:mx-5 md:text-2xl lg:text-3xl">
