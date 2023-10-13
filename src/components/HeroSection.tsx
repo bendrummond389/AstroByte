@@ -1,4 +1,4 @@
-import Navbar from '@/components/navbar/Navbar';
+import Navbar from '@/components/Navbar';
 import { bebasNeue } from '@/lib/fonts';
 import Image from 'next/image'
 
@@ -8,7 +8,7 @@ const HeroSection = () => (
       className="z-0 object-cover object-bottom"
       alt="retro style spaceship flying through space"
       src="/AstroByteHero.webp"
-      layout="fill"
+      fill
     />
     <div className="flex h-full flex-col justify-between p-5">
       <Navbar />
