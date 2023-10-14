@@ -21,7 +21,7 @@ const BabeCard: React.FC<BabeCardProps> = ({ children, image, imageAlignment }) 
 )
 
 const PricesSection = () => (
-  <div id="pricing" className="relative h-fit w-full md:h-screen">
+  <div id="pricing" className="relative h-fit w-full lg:h-screen">
     <Image
       className="z-0 object-cover object-top brightness-50"
       alt="image"

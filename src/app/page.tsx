@@ -1,6 +1,9 @@
+
+
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import PricesSection from '@/components/PricesSection'
+import ContactSection from '@/components/ContactSection'
 
 
 export default function Home() {
@@ -11,7 +14,8 @@ export default function Home() {
       <AboutSection />
       <a href="#Pricing" />
       <PricesSection />
-      <a href="#Conact" />
+      <a href="#Contact" />
+      <ContactSection />
     </main>
   )
 }
