@@ -39,7 +39,7 @@ const ContactSection = () => {
                 <input
                   type="text"
                   name="from_name"
-                  className="w-full rounded-md border p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="w-full rounded-md border p-2 shadow-sm text-black focus:border-indigo-500 focus:ring-indigo-500"
                 />
               </div>
               <div className="flex-1">
@@ -48,7 +48,7 @@ const ContactSection = () => {
                   required
                   type="email"
                   name="from_email"
-                  className="w-full rounded-md border p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="w-full rounded-md border p-2 shadow-sm text-black focus:border-indigo-500 focus:ring-indigo-500"
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ const ContactSection = () => {
               <label className="mb-2 block text-lg font-bold">Message</label>
               <textarea
                 name="message"
-                className="h-32 w-full rounded-md border p-3 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                className="h-32 w-full rounded-md border p-3 shadow-sm text-black focus:border-indigo-500 focus:ring-indigo-500"
               ></textarea>
             </div>
             <div className="mt-6 flex justify-center">
