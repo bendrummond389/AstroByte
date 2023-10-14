@@ -31,7 +31,7 @@ const ContactSection = () => {
         >
           Contact Us
         </h1>
-        <div className="w-3/5 rounded-xl border-2 border-black bg-gray-400 p-8 shadow-lg">
+        <div className=" w-full md:w-3/5 rounded-xl border-2 border-black bg-gray-400 p-8 shadow-lg">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
               <div className="flex-1">
